@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Search_V5.3.1_20170817.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b4e1d1d93f686f1a6efe4e49d798b27801d4d301">
+        <dex dex="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\pre-dexed\debug\AMap_Search_V5.3.1_20170817_159d0dae66e325dcb88e2786fed8291d579a090a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\pre-dexed\debug\Volley_69cd2e663155c9a4fe5266d317632a7053c50a82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Android_Map3D_SDK_V5.3.0_20170815.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e1bcab49134edfa6f74440488dfff14460d3a12">
+        <dex dex="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\pre-dexed\debug\Android_Map3D_SDK_V5.3.0_20170815_56a7c0e224869a15c66f602787cc2c652ba33b43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\develop\sdk\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\pre-dexed\debug\library-2.4.0_76611f7c81243e0e3b73357d58f33b29953d7906.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\pre-dexed\debug\android-support-v4_29f36a900b5b315d2504040a74ff1085971c8cbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Location_V3.5.0_20170731.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a02816310bcf897ef35496950110a65b495574a7">
+        <dex dex="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\pre-dexed\debug\AMap_Location_V3.5.0_20170731_96992f19cd341b8f440dd3266f60d125d0a5f574.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lyw\.android\build-cache\c0e8065478b84ab67b03904fbbb2f8c0906b826a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c231461bd4ab97550b0b053c159e4f13ffc869">
+        <dex dex="E:\develop\code\AMap_Android_SDK_All\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\pre-dexed\debug\classes_7372fa34185a88373aef519e218843c217a40d58.jar" />
+    </item>
+
+</items>

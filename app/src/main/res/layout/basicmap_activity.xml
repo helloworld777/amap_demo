@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <io.codetail.widget.RevealFrameLayout
+        android:id="@+id/container_frame"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/content_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+        <io.codetail.widget.RevealFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.amap.api.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <CheckBox
+                android:id="@+id/check_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="开启个性化地图"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/hidMap"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:text="隐藏地图"/>
+                <Button
+                    android:id="@+id/basicmap"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:background="@drawable/btn_map_poi"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    android:text="标准地图"/>
+                <Button
+                    android:id="@+id/rsmap"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:background="@drawable/btn_map_poi"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    android:text="卫星地图"/>
+                <Button
+                    android:id="@+id/nightmap"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/btn_map_poi"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    android:text="夜间模式"/>
+                <Button
+                    android:id="@+id/navimap"
+                    android:layout_width="65dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/btn_map_poi"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    android:text="导航模式"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </io.codetail.widget.RevealFrameLayout>
+    </io.codetail.widget.RevealFrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlContent"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:text="aaaaaaaaaaaaaaaa"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="30sp"
+            android:text="bbbbb"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:text="cccccccccccc"/>
+        <Button
+            android:id="@+id/btnShowMap"
+            android:text="显示地图"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>
